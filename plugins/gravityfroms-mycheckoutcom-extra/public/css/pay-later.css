@@ -1,0 +1,162 @@
+/* --- Retrieve & Pay Feature Styles --- */
+#gf-pay-later-app {
+  margin: 40px auto;
+  border: 1px solid #e1e1e1;
+  box-shadow: 0px 0px 6px -1px rgba(3.000000000000002, 70.99999999999996, 54.99999999999999, 0.66);
+  padding: 40px;
+  border-radius: 10px;
+}
+
+.gf-pay-later-lookup-container {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+#gf-pay-later-lookup-form {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+#gf_lookup_identifier {
+  padding: 10px 15px;
+  width: 40%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+#gf-lookup-submit-button {
+  background-color: #026d54;
+}
+#gf-lookup-submit-button:hover {
+  opacity: 80%;
+}
+
+/* --- Table Styles --- */
+#gf-pay-later-results h3 {
+  text-align: center;
+}
+.gf-pay-later-table-wrapper {
+  overflow-x: auto;
+}
+.gf-pay-later-table {
+  min-width: 900px;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 0.9em;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.gf-pay-later-table thead tr {
+  background-color: #0073aa;
+  color: #ffffff;
+  text-align: left;
+}
+
+.gf-pay-later-table th,
+.gf-pay-later-table td {
+  padding: 12px 15px;
+  border: 1px solid #dddddd;
+}
+
+.gf-pay-later-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.gf-pay-later-table tbody tr:last-of-type {
+  border-bottom: 2px solid #0073aa;
+}
+
+.gf-pay-later-table tbody tr:hover {
+  background-color: #e8f4f8;
+}
+
+/* --- Pagination Styles --- */
+.gform-pagination {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.pagination-link {
+  color: #0073aa;
+  padding: 8px 12px;
+  text-decoration: none;
+  border: 1px solid #ddd;
+  margin: 0 4px;
+  border-radius: 4px;
+  background-color: #fff;
+  transition: background-color 0.3s;
+}
+
+.pagination-link:hover {
+  background-color: #f4f4f4;
+}
+
+.pagination-link.active {
+  background-color: #0073aa;
+  color: white;
+  border-color: #0073aa;
+  cursor: default;
+}
+
+.pagination-link.prev,
+.pagination-link.next {
+  font-weight: bold;
+}
+
+.pagination-ellipsis {
+  padding: 8px 4px;
+  color: #555;
+  cursor: default;
+}
+
+/* --- Button and Error Styles --- */
+a.button.pay-now-button, #gf-lookup-submit-button {
+  background-color: #0085ba;
+  color: #fff !important;
+  padding: 8px 16px;
+  border-radius: 4px;
+  display: inline-block;
+  border: none;
+  align-content: center;
+}
+
+a.button.pay-now-button:hover, #gf-lookup-submit-button:hover {
+  background-color: #005a87;
+  opacity: 80%;
+}
+
+.gf-pay-later-error p {
+  color: #d8000c;
+  background-color: #ffbaba;
+  border: 1px solid #d8000c;
+  padding: 15px;
+  border-radius: 4px;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+#unsubmitted-forms-link{
+  margin-top: 13px;
+  text-transform: capitalize;
+}
+
+@media screen and (max-width: 660px) {
+  #gf-pay-later-lookup-form {
+    flex-direction: column;
+  }
+
+  table.gf-pay-later-table-wrapper {
+    overflow-x: auto;
+  }
+
+  #gf_lookup_identifier {
+    width: 100%;
+  }
+  #gf-pay-later-app {
+    padding: 20px;
+  }
+}
+

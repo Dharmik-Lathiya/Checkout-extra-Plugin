@@ -1,0 +1,283 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Gravity Forms Checkout.com Gateway\n"
+"POT-Creation-Date: 2020-11-24 18:50+0530\n"
+"PO-Revision-Date: 2020-11-24 18:50+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.5\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: gateway.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: class-gateway.php:62
+#, php-format
+msgid ""
+"Live merchant accounts cannot be used in a sandbox environment, so to test "
+"the plugin, please make sure you are using a separate sandbox account. If "
+"you do not have a sandbox account, you can sign up for one from %shere%s."
+msgstr ""
+
+#: class-gateway.php:66
+msgid "Checkout.com Account Information"
+msgstr ""
+
+#: class-gateway.php:71 class-gateway.php:274 class-gateway.php:278
+msgid "Mode"
+msgstr ""
+
+#: class-gateway.php:73
+#, php-format
+msgid "Check the Checkout.com testing guide %shere%s."
+msgstr ""
+
+#: class-gateway.php:75
+msgid ""
+"Select either Production or Sandbox mode for live accounts or Sandbox if you "
+"have a sandbox account."
+msgstr ""
+
+#: class-gateway.php:78 class-gateway.php:281
+msgid "Live"
+msgstr ""
+
+#: class-gateway.php:82 class-gateway.php:285
+msgid "Sandbox"
+msgstr ""
+
+#: class-gateway.php:90 class-gateway.php:293 class-gateway.php:297
+msgid "Secret Key"
+msgstr ""
+
+#: class-gateway.php:91 class-gateway.php:101
+msgid "Get it from Settings → Channels → API Keys section."
+msgstr ""
+
+#: class-gateway.php:100 class-gateway.php:302 class-gateway.php:307
+msgid "Public Key"
+msgstr ""
+
+#: class-gateway.php:173 class-gateway.php:186
+msgid "Transaction Type"
+msgstr ""
+
+#: class-gateway.php:178
+msgid "Select a transaction type"
+msgstr ""
+
+#: class-gateway.php:182
+msgid "Products and Services"
+msgstr ""
+
+#: class-gateway.php:186
+msgid "Select a transaction type."
+msgstr ""
+
+#: class-gateway.php:193 class-gateway.php:196
+msgid "Auth Only"
+msgstr ""
+
+#: class-gateway.php:196
+msgid ""
+"Process credit card transactions as Authorize Only instead of Authorize and "
+"Capture."
+msgstr ""
+
+#: class-gateway.php:199 class-gateway.php:214
+msgid "Enable"
+msgstr ""
+
+#: class-gateway.php:208 class-gateway.php:211
+msgid "3D Secure"
+msgstr ""
+
+#: class-gateway.php:211
+msgid "Process credit card transactions through 3D secure mechanism."
+msgstr ""
+
+#: class-gateway.php:227 class-gateway.php:229
+msgid "Post Payment Actions"
+msgstr ""
+
+#: class-gateway.php:229
+msgid "Select which actions should only occur after payment has been received."
+msgstr ""
+
+#: class-gateway.php:231
+msgid "Create post only when payment is received."
+msgstr ""
+
+#: class-gateway.php:250 class-gateway.php:252
+msgid "API Settings"
+msgstr ""
+
+#: class-gateway.php:252
+msgid ""
+"Override the settings provided on the Checkout.com Settings page and use "
+"these instead for this feed."
+msgstr ""
+
+#: class-gateway.php:278
+msgid ""
+"Select either Live or Sandbox mode to override the chosen mode on the "
+"Checkout.com Settings page."
+msgstr ""
+
+#: class-gateway.php:297
+msgid ""
+"Enter a new value to override the Secret Key on the Checkout.com Settings "
+"page."
+msgstr ""
+
+#: class-gateway.php:307
+msgid ""
+"Enter a new value to override the Public Key on the Checkout.com Settings "
+"page."
+msgstr ""
+
+#: class-gateway.php:327
+msgid "Last Name"
+msgstr ""
+
+#: class-gateway.php:332
+msgid "First Name"
+msgstr ""
+
+#: class-gateway.php:338
+msgid "Phone"
+msgstr ""
+
+#: class-gateway.php:342
+msgid "Order Reference"
+msgstr ""
+
+#: class-gateway.php:346
+msgid "Order Summary"
+msgstr ""
+
+#: class-gateway.php:350
+msgid "User defined field 1"
+msgstr ""
+
+#: class-gateway.php:354
+msgid "User defined field 2"
+msgstr ""
+
+#: class-gateway.php:358
+msgid "User defined field 3"
+msgstr ""
+
+#: class-gateway.php:362
+msgid "User defined field 4"
+msgstr ""
+
+#: class-gateway.php:366
+msgid "User defined field 5"
+msgstr ""
+
+#: class-gateway.php:384
+msgid "Payment Completed"
+msgstr ""
+
+#: class-gateway.php:385
+msgid "Payment Failed"
+msgstr ""
+
+#: class-gateway.php:386
+msgid "Pending Payment Added"
+msgstr ""
+
+#: class-gateway.php:506 class-gateway.php:514
+msgid "Unable to validate your payment, please try again."
+msgstr ""
+
+#: class-gateway.php:526
+#, php-format
+msgid "Amount: %s"
+msgstr ""
+
+#: class-gateway.php:566
+#, php-format
+msgid "This callback has already been processed (Event Id: %s)"
+msgstr ""
+
+#: class-gateway.php:704
+msgid "Pay Now"
+msgstr ""
+
+#: class-gateway.php:705
+msgid "Cancel"
+msgstr ""
+
+#: class-gateway.php:854 class-gateway.php:1056
+msgid ""
+"There was an error processing your credit card. Please verify the "
+"information and try again."
+msgstr ""
+
+#: class-gateway.php:1017 class-gateway.php:1019
+#, php-format
+msgid "Payment failed. Amount: %s. Transaction ID: %s. Reason: %s"
+msgstr ""
+
+#: class-gateway.php:1018
+#, php-format
+msgid "Payment failed. Reason: %s Please try again."
+msgstr ""
+
+#: class-gateway.php:1030
+#, php-format
+msgid "Payment is pending. Amount: %s. Transaction ID: %s."
+msgstr ""
+
+#: class-gateway.php:1031
+msgid ""
+"Your payment is currently pending, it will be updated in our system when we "
+"received a confirmation from our processor."
+msgstr ""
+
+#: class-gateway.php:1044
+msgid "Invalid CVV and/or expiry date."
+msgstr ""
+
+#: class-gateway.php:1048
+msgid ""
+"The issuer has declined the transaction because it is invalid. The "
+"cardholder should contact their issuing bank."
+msgstr ""
+
+#: class-gateway.php:1052
+msgid "Invalid amount or amount exceeds maximum for card program."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Gravity Forms Checkout.com Gateway"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://wpgateways.com/products/checkout-com-gateway-gravity-forms/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Extends Gravity Forms to process payments with Checkout.com payment gateway"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "WP Gateways"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://wpgateways.com"
+msgstr ""

@@ -1,0 +1,24 @@
+/*
+ * Custom admin styles for the Gravity Forms Checkout.com Gateway Extra plugin.
+ */
+
+/* Style the Resend Notifications meta box to make it stand out */
+#gf_resend_notifications .inside {
+    background-color: #f7faff; /* A light blue background */
+    border-left: 4px solid #0073aa; /* A blue left border */
+}
+
+/* Caution color for the confirmation button - changed to green */
+.button-primary-caution {
+    background-color: #46b450 !important;
+    border-color: #399c40 !important;
+    color: #fff !important;
+    box-shadow: 0 1px 0 #399c40 !important;
+    text-shadow: 0 -1px 1px #399c40, 1px 0 1px #399c40, 0 1px 1px #399c40, -1px 0 1px #399c40 !important;
+}
+
+.button-primary-caution:hover,
+.button-primary-caution:focus {
+    background-color: #41a648 !important;
+    border-color: #338a39 !important;
+}

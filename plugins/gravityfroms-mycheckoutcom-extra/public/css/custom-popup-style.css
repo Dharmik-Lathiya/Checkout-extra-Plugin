@@ -1,0 +1,395 @@
+/* Overlay */
+.custom-popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 9998;
+}
+
+/* Popup Wrapper */
+.popup-display-container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+}
+
+/* Popup Box */
+.age-alert-popup {
+  width: 100%;
+  max-width: 500px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+  animation: popupFadeIn 0.3s ease-out;
+}
+
+/* Header */
+.age-alert-popup-header {
+  display: flex;
+  justify-content: flex-end;
+  padding: 12px;
+}
+
+.age-alert-popup-close {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 4px;
+}
+
+/* Body */
+.age-alert-popup-body {
+  padding: 0px 30px 30px 30px;
+}
+
+.age-alert-popup-title {
+  margin: 0 0 16px 0;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.age-alert-popup-content {
+  margin-bottom: 20px;
+}
+
+/* Buttons */
+.age-alert-popup-actions {
+  display: flex;
+  gap: 12px;
+  margin-top: 24px;
+}
+
+.age-alert-popup-btn-primary {
+  width: 100%;
+  text-align: center;
+  padding: 20px 12px;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  background: #034737;
+}
+.age-alert-popup-btn-primary:hover {
+  text-decoration: underline;
+}
+/* Alert */
+.age-alert-popup-alert {
+  margin-top: 20px;
+  padding: 12px;
+  background: #fff8e6;
+  border-radius: 4px;
+  font-size: 0.9rem;
+}
+
+/* Animation */
+@keyframes popupFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Custom Styles for preview data*/
+/* 
+tr.data-question-label td, .order-table-header th, tr.order-table-footer td:first-child{
+    background: var(--e-global-color-light) !important;
+}
+
+tr.data-section-header td{
+  background: var(--e-global-color-primary) !important;
+  color: var(--e-global-color-light) !important;
+  padding: 13px 20px !important;
+  font-family: "Inter", Sans-serif;
+  font-size: 15px !important;
+}
+
+tr.data-question-label td font {
+    padding: 10px !important;
+}
+
+.order-table-header th {
+    color: black;
+    text-align: center !important;
+  } */
+
+/* Passport Form Styles */
+.review-form-container {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  line-height: 1.6;
+  /* padding: 20px; */
+  background: white;
+  border-radius: 8px;
+  /* box-shadow: 0 3px 10px rgba(0,0,0,0.08); */
+}
+
+.section {
+  margin-bottom: 25px;
+  border: 1px solid #e0e6ed;
+  border-radius: 8px;
+  overflow: hidden;
+  background: white;
+  transition: all 0.3s ease;
+}
+
+.section:hover {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transform: translateY(-2px);
+}
+
+.section-header {
+  /* background: #2c7da0; */
+  background: var(--e-global-color-primary) !important;
+  color: var(--e-global-color-light) !important;
+  /* color: white; */
+  padding: 14px 20px;
+  font-size: 17px;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  display: flex;
+  gap: 10px;
+  cursor: 'pointer';
+	user-select: 'none';
+}
+
+.section-header h3{
+   color: var(--e-global-color-light) !important;
+   font-size: 17px;
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+
+.section-header-completed{
+  margin-left: auto;
+  display: flex;
+  gap: 5px;
+  margin-bottom: 0px;
+}
+
+.section-content {
+  padding: 20px;
+}
+
+.review-form-row {
+  display: flex;
+  padding: 12px 0px 12px 10px;
+  border-bottom: 1px solid #e7ebee;
+}
+
+.review-form-row:last-child {
+  border-bottom: none;
+}
+
+.review-form-row:hover {
+  background-color: var(--e-global-color-light);
+}
+
+.question {
+  flex: 0 0 50%;
+  font-weight: 600;
+  padding-right: 20px;
+  /* color: #4a5568; */
+  color: #6d7275;
+  font-size: 15px;
+  text-align: end;
+}
+
+@media only screen and (max-width: 769px) {
+	.question {
+		text-align: start;
+	}
+}
+
+.answer {
+  /* border-left: 1px solid #b9b4bb;
+  padding-left: 20px; */
+  flex: 1;
+  /* color: #2d3748; */
+  color: #1f2022;
+  font-size: 15px !important;
+  font-weight: 700;
+  line-height: 1.5 !important;
+
+}
+
+.answer font {
+  color: #565353;
+  font-size: 15px !important;
+}
+
+.answer a {
+  color: #2c7da0;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.answer a:hover {
+  color: #1a4f72;
+  text-decoration: underline;
+}
+
+.answer ul {
+  padding-left: 22px;
+  margin-top: 8px;
+}
+
+.answer ul li {
+  margin-bottom: 6px;
+  position: relative;
+}
+
+.answer ul li:before {
+  content: "•";
+  color: #2c7da0;
+  position: absolute;
+  left: -15px;
+  top: 0;
+}
+
+.order-container {
+  margin-top: 25px;
+  overflow-x: auto;
+}
+
+.order-table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #e2e8f0;
+  font-size: 14px;
+  min-width: 600px;
+}
+
+.order-table tr:nth-child(even) {
+  background-color: #f8fafc;
+}
+
+.order-table tr:hover {
+  background-color: #f1f7fd;
+}
+.order-table-header th,
+tr.order-table-footer td:first-child {
+  background: var(--e-global-color-light) !important;
+}
+
+tr.order-table-header th {
+  color: black;
+  font-size: 15px !important;
+  font-weight: 600;
+}
+
+tr.order-table-row td {
+  text-align: center !important;
+  font-size: 15px !important;
+}
+
+tr.order-table-row td:first-child {
+  text-align: left !important;
+}
+
+.order-table td strong {
+  font-size: 15px !important;
+}
+
+.order-table tfoot tr:last-child td {
+  background: var(--e-global-color-light) !important;
+}
+
+button.section-edit-button {
+
+  background-color: #002868 !important;
+  outline: 0;
+  border: 1px solid #002868;
+  text-transform: uppercase;
+  padding: 15px 25px;
+  border-radius: 13px;
+  color: #fff;
+}
+
+button.section-edit-button:hover{
+  background-color: #0B3270 !important;
+}
+
+.section-edit-btn-container{
+  text-align: center;
+  margin-top: 15px;
+}
+
+@media (max-width: 768px) {
+  .review-form-row {
+    flex-direction: column;
+    padding: 15px 0;
+  }
+
+  .question {
+    margin-bottom: 8px;
+    padding-right: 0;
+    flex: none;
+  }
+
+  .section-content {
+    padding: 15px;
+  }
+
+  .section-header {
+    padding: 12px 15px;
+    font-size: 16px;
+  }
+}
+
+.custom-warning-review-data{
+	display: flex;
+	gap: 10px;
+	align-items: center;
+}
+
+.gf_alert_yellow.container-warning-review-data, #field_1_154,
+#field_4_172,
+#field_5_144,
+#field_6_153,
+#field_11_154,
+#field_14_153,
+#field_13_172,
+#field_12_144 {
+	width: fit-content !important;
+  margin-left: auto !important;
+}
+
+#order-summary-notice {
+	color: white !important;
+	font-size: 13.5px;
+}
+
+.gfield_checkbox .gchoice label{
+	display: flex;
+	justify-content: space-between;
+}
+
+.passport-add-ons legend {
+	font-size: 22px !important;
+	font-weight: 600 !important;
+	
+}
+
+.passport-add-ons .gfield_checkbox .gchoice {
+	margin: 20px 0 8px 0;
+}
+
+.passport-add-ons .ginput_price {
+	font-size: 18px !important;
+	font-weight: 600;
+}
+
+.passport-insurance-notice,
+.priority-service-notice,
+.passport-card-notice {
+	line-height: 24px !important;
+}

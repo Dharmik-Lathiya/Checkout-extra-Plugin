@@ -1,0 +1,20 @@
+iframe {
+  width: 100%;
+}
+.card-frame {
+  padding: 5px 4px;
+  border: solid 1px #ccc;
+  margin-bottom: 15px;
+  height: 40px;
+}
+.card-frame.frame--rendered {
+  opacity: 1;
+}
+.card-frame.frame--rendered.frame--focus {
+  border: solid 1px #13395e;
+  box-shadow: 0 2px 5px 0 rgba(19, 57, 94, 0.15);
+}
+.card-frame.frame--rendered.frame--invalid {
+  border: solid 1px #d96830;
+  box-shadow: 0 2px 5px 0 rgba(217, 104, 48, 0.15);
+}

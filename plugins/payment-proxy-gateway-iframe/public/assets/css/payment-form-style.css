@@ -1,0 +1,152 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, sans-serif;
+  background: #fff;
+}
+
+.page-template-default #wp--skip-link--target {
+  background: #f6f6f6;
+  margin: 0 !important;
+}
+
+.iframe-card-custom-header- {
+  border-bottom: 1px solid #e1e1e1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+	margin: 8px 0 20px 0;
+}
+
+.iframe-card-custom-header- span {
+  font-size: 18px;
+  line-height: 24px;
+  color: black;
+  font-weight: 700;
+	max-width: 200px;
+	padding-bottom: 12px;
+}
+
+@media only screen and (max-width: 500px) {
+	.iframe-card-custom-header- {
+	flex-wrap: wrap;
+	}
+	
+	.iframe-card-custom-header- span {
+		max-width: 100%;
+	}
+}
+
+
+form#payment-form {
+  background: #fff;
+}
+
+.card-frame {
+  border: 1px solid #d1d5db;
+  padding: 14px;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  background-color: #fff;
+  height: 50px;
+}
+
+.iframe-payment-form-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+#pay-button {
+  width: 100%;
+  padding: 14px;
+  font-size: 16px;
+  font-weight: bold;
+  /*   background-color: #2563eb; */
+  background-color: #002868;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#pay-button:hover:enabled {
+  /*   background-color: #1d4ed8; */
+  background-color: #0b3270;
+}
+
+#pay-button:disabled {
+  background-color: #032952;
+  color: #fff;
+  cursor: not-allowed;
+}
+
+#error-message {
+  color: #dc2626;
+  margin-top: 12px;
+  font-size: 14px;
+  text-align: center;
+}
+
+footer.wp-block-template-part {
+  background: #f6f6f6;
+  padding: 0;
+  margin: 0;
+}
+
+.payment-method-text p {
+  padding: 15px;
+  border-radius: 8px;
+  font-size: 13px;
+	color: #1f2022;
+    font-weight: 400;
+    line-height: 16px;
+	border: none;
+}
+
+
+.notice-payment p {
+  font-size: 14px !important;
+}
+
+.payment-frame-container {
+  max-width: 500px !important;
+  background: white;
+  padding: 30px 30px 0px 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 20px;
+}
+@media only screen and (max-width: 575px) {
+  .payment-frame-container {
+    padding: 20px 0px 0px 0px !important;
+  }
+}
+
+.terms-checkbox-container {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 15px;
+    gap: 10px;
+    line-height: 20px;
+  border-radius: 8px;
+  padding: 15px;
+	border: 1px solid #e7ebee;
+    border-radius: 6px;
+}
+
+.terms-checkbox-container input[type="checkbox"] {
+    margin-top: 3px;
+    flex-shrink: 0;
+}
+
+.terms-checkbox-container label {
+    font-size: 14px;
+    line-height: 1.4;
+    cursor: pointer;
+}
+
+.terms-checkbox-container a {
+  text-decoration: underline;
+}

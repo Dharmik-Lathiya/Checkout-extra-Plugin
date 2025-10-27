@@ -1,0 +1,13 @@
+# Ignore everything
+*
+
+# But not these folders and their contents
+!plugins/
+!plugins/gravityfroms-mycheckoutcom-extra/
+!plugins/gravityfroms-mycheckoutcom-extra/**
+
+!plugins/payment-proxy-gateway-iframe/
+!plugins/payment-proxy-gateway-iframe/**
+
+# Don't ignore this file itself
+!.gitignore
