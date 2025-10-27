@@ -331,8 +331,6 @@ class GF_Checkout_Com_Resend_Email {
 				return rgar( $field, 'id' );
 			}
 		}
-
-		
 		return null;
 	}
 }

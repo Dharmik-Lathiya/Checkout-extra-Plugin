@@ -18,7 +18,6 @@ class GF_Checkout_Com_Pay_Later {
 	 */
 	private static $_instance = null;
 
-	
 	/**
 	 * Gets the single instance of this class.
 	 *

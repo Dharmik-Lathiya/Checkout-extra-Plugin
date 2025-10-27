@@ -144,8 +144,7 @@ class GF_Checkout_Com_Brevo_Mailer {
 								'body'   => $response_body,
 							)
 						);
-					}
-					
+					}			
 		}
 	}
 }

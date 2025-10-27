@@ -152,7 +152,6 @@ class GF_Brevo_Mail_Extra_AddOn extends GFFeedAddOn {
 	}
 
 
-	
 	/**
 	 * Retrieves all Fillable PDFs feeds for a given form.
 	 *
